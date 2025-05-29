@@ -2,7 +2,7 @@
 
 A simple web application to display and filter a list of event talks and speakers. The backend is built with Python and Flask, serving a JSON API. The frontend is built with HTML, CSS, and vanilla JavaScript to consume the API and render the information dynamically.
 
-Note: This entire site was built using Code Assist extension in VS Code. I used the Google Docs tool in Code Assist, to provide a requirements document that described this functionality that I wanted to build. Once it got that, I asked it to help me to code it out step by step. 
+Note: This project was developed with the assistance of the Code Assist extension in VS Code. After providing a requirements document detailing the desired functionality via its Google Docs integration, Code Assist facilitated the step-by-step implementation.
 
 ## Table of Contents
 
