@@ -1,6 +1,6 @@
 # Event and Speakers Website
 
-A  web application to display and filter a list of event talks and speakers. The backend is built with Python and Flask, serving a JSON API. The frontend is built with HTML, CSS, and vanilla JavaScript to consume the API and render the information dynamically. And then we can run this application. 
+A  web application to display and filter a list of event talks and speakers. The backend is built with Python and Flask, serving a JSON API. The frontend is built with HTML, CSS, and vanilla JavaScript to consume the API and render the information dynamically.
 
 ## Table of Contents
 
