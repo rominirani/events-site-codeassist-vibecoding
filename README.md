@@ -203,9 +203,3 @@ The frontend is served via `index.html` and uses `static/js/script.js` for dynam
     Open your web browser and navigate to `http://127.0.0.1:8080/`.
 
 You should now see the Event and Speakers website, be able to view talks, filter by category, and search by title.
-
----
-
-This `README.md` should provide a good overview and guide for your project. You can copy and paste this content into a new file named `README.md` in the root of your `/Users/romin/projects/codeassist-tools/google-docs/` directory.
-
-Let me know if you'd like any adjustments or further details added!
