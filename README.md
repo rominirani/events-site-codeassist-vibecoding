@@ -54,6 +54,7 @@ The backend API is served by the Flask application (`app.py`). All API endpoints
         "talk_by_id": "/api/talks/id/<talk_id>",
         "talks_by_category": "/api/talks/category/<category_name>",
         "talks_by_speaker": "/api/talks/speaker?name=<speaker_name_query>",
+        "talks_by_room": "/api/talks/room/<room_name>",
         "search_talks_by_title": "/api/talks/search?title=<title_query>",
         "all_categories": "/api/categories",
         "all_speakers": "/api/speakers"
@@ -75,7 +76,8 @@ The backend API is served by the Flask application (`app.py`). All API endpoints
         "speakers": [{"firstName": "Alice", "lastName": "Wonderland"}, {"firstName": "Bob", "lastName": "The Builder"}],
         "categories": ["AI", "Agents", "Future Tech"],
         "summary": "A comprehensive overview...",
-        "duration": 60
+        "duration": 60,
+        "room": "Room A"
       }
       // ... more talks
     ]
