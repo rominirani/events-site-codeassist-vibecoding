@@ -14,7 +14,8 @@
     ],
     "categories": ["AI", "Agents", "Future Tech"],
     "summary": "A comprehensive overview of the latest advancements in AI agent technology and their potential applications.",
-    "duration": 60
+    "duration": 60,
+    "room": "Room A"
   },
   {
     "id": "unique-uuid-2",
@@ -27,7 +28,8 @@
     ],
     "categories": ["Java", "Concurrency", "Software Development"],
     "summary": "Deep dive into Java's concurrency utilities, best practices, and common pitfalls.",
-    "duration": 90
+    "duration": 90,
+    "room": "Room B"
   },
   {
     "id": "unique-uuid-3",
@@ -40,6 +42,7 @@
     ],
     "categories": ["Python", "Flask", "Web Development", "Scalability"],
     "summary": "Learn how to build and deploy scalable web applications using Python, Flask, and cloud technologies.",
-    "duration": 75
+    "duration": 75,
+    "room": "Room C"
   }
 ]

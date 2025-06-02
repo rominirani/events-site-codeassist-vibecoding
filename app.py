@@ -28,6 +28,7 @@ def api_root():
             "talks_by_category": "/api/talks/category/<category_name>",
             "talks_by_speaker": "/api/talks/speaker?name=<speaker_name_query>",
             "search_talks_by_title": "/api/talks/search?title=<title_query>",
+            "talks_by_room": "/api/talks/room/<room_name>",
             "all_categories": "/api/categories",
             "all_speakers": "/api/speakers"
         },
@@ -81,6 +82,18 @@ def search_talks_by_title():
     if not filtered_talks:
         return jsonify({"message": f"No talks found with title containing: '{title_query}'"}), 404
     return jsonify(filtered_talks)
+
+@app.route('/api/talks/room/<string:room_name>', methods=['GET'])
+def get_talks_by_room(room_name):
+    room_name_lower = room_name.lower()
+    filtered_talks = [
+        talk for talk in talks_data
+        if talk.get('room', '').lower() == room_name_lower
+    ]
+    if not filtered_talks:
+        return jsonify({"message": f"No talks found in room: {room_name}"}), 404
+    return jsonify(filtered_talks)
+
 
 @app.route('/api/talks/id/<string:talk_id>', methods=['GET'])
 def get_talk_by_id(talk_id):
